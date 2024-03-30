@@ -1,0 +1,15 @@
+{
+  "name": "wikibase-edit-test",
+  "version": "1.0.0",
+  "description": "A webextension to test wikibase-edit",
+  "main": "background.js",
+  "scripts": {
+    "postinstall": "node setup.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.20.2",
+    "wikibase-edit": "^7.0.3"
+  }
+}
